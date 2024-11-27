@@ -50,9 +50,10 @@ This program takes an array of integers as input, reverses it directly in memory
 
 ## Compilation and Execution:
 ```bash
-nasm -f elf32 02_array_reversal.asm -o array_reversal.o
-ld -m elf_i386 array_reversal.o -o array_reversal
-./array_reversal
+cd Task1
+nasm -f elf32 task1.asm -o task1.o
+ld -m elf_i386 task1.o -o task1
+./task1
 ```
 
 ---
